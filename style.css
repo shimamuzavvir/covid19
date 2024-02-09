@@ -1,0 +1,36 @@
+body{
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    margin-top: 50px;
+}
+.card {
+    margin:20px;
+    border: 20px;
+    padding: 10px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(180, 244, 244);
+}
+/* Custom style for wider form input */
+.form-select {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 5em sans-serif;
+}
+#label{
+    margin-top: 10px;
+    padding: 10px;
+    font-size:xx-large;
+    color:rgb(116, 127, 113);
+}

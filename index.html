@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Covid-19 India</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">COVID-19 India Data</h1>
+		<form>
+            <div class="form-group">
+            <label for="area" id="label">select your state or district</label> <br>
+			<select class="form-select" id="answer" aria-label="Default select example">
+				<option value="" id="area" selected>select your district</option>
+            </select> <br>
+                <button class="btn btn-danger" onclick="getValue()">Check</button>
+            </div>
+		</form>
+
+
+		<div>
+
+            <h3 class="text-center">Total cases of India</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Confirmed Cases</h5>
+                        <p class="card-text" id="totalCases"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Active Cases</h5>
+                        <p class="card-text" id="activeCases"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Recoverd</h5>
+                        <p class="card-text" id="totalRecovered"></p>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Total Deaths</h5>
+                        <p class="card-text" id="totalDeceased"></p>
+                    </div>
+                </div>
+            </div>
+		</div>
+     </div>
+</div>
+	
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
